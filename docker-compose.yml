@@ -1,0 +1,7 @@
+version: '2'
+services:
+  soap:
+    container_name: 'soap-server'
+    image: soap:latest
+    ports:
+      - "18881:8081"
